@@ -141,4 +141,4 @@ REST_FRAMEWORK = {
 }
 
 # ─── Knowledge Base Settings ──────────────────────────────────────────────────
-MAX_SNIPPET_LENGTH = 400   # Characters limit for uploaded snippets
+MAX_SNIPPET_LENGTH = 500   # Characters limit for uploaded snippets

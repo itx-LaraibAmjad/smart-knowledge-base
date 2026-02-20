@@ -213,7 +213,7 @@ export default function App() {
 
   const handleSubmit = async () => {
     if (!content.trim()) return showToast("Please enter some content.", "error");
-    if (content.length > 5000) return showToast("Content too long (max 5000 chars).", "error");
+    if (content.length > 500) return showToast("Content too long (max 500 chars).", "error");
 
     setLoading(true);
     try {
@@ -342,8 +342,8 @@ export default function App() {
             rows={5}
           />
           <div className="form-footer">
-            <span className={`char-count ${charCount > 4500 ? "char-warn" : ""}`}>
-              {charCount} / 5000
+            <span className={`char-count ${charCount > 450 ? "char-warn" : ""}`}>
+              {charCount} / 500
             </span>
             <button className="btn-submit" onClick={handleSubmit} disabled={loading}>
               {loading

@@ -26,7 +26,7 @@ class KnowledgeItemCreateSerializer(serializers.Serializer):
 
     content = serializers.CharField(
         min_length=1,
-        max_length=getattr(settings, 'MAX_SNIPPET_LENGTH', 400),
+        max_length=getattr(settings, 'MAX_SNIPPET_LENGTH', 500),
         error_messages={
             'blank':     'Content cannot be empty.',
             'min_length': 'Content must be at least 1 character long.',
