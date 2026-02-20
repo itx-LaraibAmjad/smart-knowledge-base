@@ -1,0 +1,41 @@
+# ─── Python / Django ──────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# Django
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+media/
+
+# Environment variables
+.env
+.env.local
+.env.production
+
+# ─── React / Node ─────────────────────────────────────────────────────────────
+frontend/node_modules/
+frontend/build/
+frontend/.env
+frontend/.env.local
+
+# ─── VS Code ──────────────────────────────────────────────────────────────────
+.vscode/
+*.code-workspace
+
+# ─── OS Files ─────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
