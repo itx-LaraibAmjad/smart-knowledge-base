@@ -93,7 +93,7 @@ Django REST Framework
 
 #### 1. Clone the Repository
 ```bash
-git clone https://github.com/your-username/smart-knowledge-base.git
+git clone https://github.com/itx-LaraibAmjad/smart-knowledge-base
 cd smart-knowledge-base
 ```
 
