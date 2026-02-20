@@ -188,7 +188,7 @@ Upload a new snippet. AI auto-assigns tag.
 ```json
 {
   "message": "Snippet uploaded and tagged successfully.",
-  "data": { "id": 1, "content": "...", "ai_tag": "Technical", "created_at": "..." }
+  "data": { "id": 1, "content": "...", "ai_tag": "Urgent", "created_at": "..." }
 }
 ```
 
