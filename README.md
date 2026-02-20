@@ -304,7 +304,7 @@ smart-knowledge-base/
 │   ├── serializers.py     ← Validation & serialization
 │   ├── views.py           ← GET, POST, PUT, DELETE logic
 │   ├── urls.py            ← API routing
-│   ├── ai_tagger.py       ← Gemini AI + keyword fallback
+│   ├── ai_tagger.py       ← HuggingFace AI + keyword fallback
 │   ├── admin.py           ← Django admin
 │   └── apps.py
 └── frontend/
